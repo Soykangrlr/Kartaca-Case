@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer{
+  .mySvg{
+    width: 100%;
+    height: calc(100vh - 100px);
+    stroke: #666;
+    stroke-width: 1;
+    stroke-linecap: round;
+    stroke-linejoin: round;}
+    .mySvg-location{
+       fill: #25a8db;
+    cursor: pointer;
+    }
+    .mySvg-location:hover,.mySvg-location:focus{
+      fill: #b8e2b3;
+      outline: 0;
+    }
+   
+}
